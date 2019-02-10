@@ -7,7 +7,8 @@ It's built in Ruby using class inheritance. Though inheritance is generally not 
 This project is very new and very much a WIP.
 
 ## Parts of Speech
-- Noun
+
+- [Noun](/noun.rb)
   - Pronoun
     - Possessive Pronoun
 - Adjective
