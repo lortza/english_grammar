@@ -9,12 +9,12 @@ This project is very new and very much a WIP.
 ## Parts of Speech
 
 - [Noun](/noun.rb)
-  - Pronoun
-    - Possessive Pronoun
-- Adjective
-  - Possessive Adjective
-- Adverb
-- Verb
+  - [Pronoun](/pronoun.rb)
+    - [Possessive Pronoun](/possessive_pronoun.rb)
+- [Adjective](/adjective.rb)
+  - [Possessive Adjective](possessive_adjective.rb)
+- [Adverb](/adverb.rb)
+- [Verb](/verb.rb)
 
 ## How to Run this Program
 Dunno! The GUI is still WIP while I build out the classes and data.
