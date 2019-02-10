@@ -48,11 +48,37 @@ class PossessivePronoun < Pronoun
         name: 'yours',
         person: 'second',
         plurality: 'plural',
-        gender: 'neutral'
+        gender: 'mixed'
       )
 
       # Third-person
+      all << self.new(
+        name: 'his',
+        person: 'third',
+        plurality: 'singular',
+        gender: 'masculine'
+      )
 
+      all << self.new(
+        name: 'hers',
+        person: 'third',
+        plurality: 'singular',
+        gender: 'feminine'
+      )
+
+      all << self.new(
+        name: 'its',
+        person: 'third',
+        plurality: 'singular',
+        gender: 'neutral'
+      )
+
+      all << self.new(
+        name: 'theirs',
+        person: 'third',
+        plurality: 'plural',
+        gender: 'neutral'
+      )
 
 
     end
