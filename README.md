@@ -18,3 +18,13 @@ This project is very new and very much a WIP.
 
 ## How to Run this Program
 Dunno! The GUI is still WIP while I build out the classes and data.
+
+### Ideas
+
+- command line: run commands from classes to see what's included
+
+- web: ActiveRecord querying to chain scopes like:
+  ```
+  Pronoun.first_person.singular
+  PossessivePronoun.first_person.singular
+  ```
